@@ -4,6 +4,7 @@
   --accent-font: Playfair Display;
   --primary-color: #f9f7fe;
   --secondary-color: #6c64fb;
+  --tertiary-color: rgba(39, 33, 66, 0.7);
 }
 
 body {
@@ -12,6 +13,10 @@ body {
 
 .navbar {
   background-color: var(--primary-color);
+}
+
+.navbar-nav ul {
+  color: var(--tertiary-color);
 }
 
 .page-active {
@@ -50,4 +55,36 @@ body {
 
 .container h2 {
   font-family: var(--accent-font);
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.container p {
+  font-size: 16px;
+  color: var(--tertiary-color);
+}
+
+.container a {
+  color: var(--secondary-color);
+  border: 1px all var(--secondary-color);
+}
+
+.container a:hover {
+  background: var(--secondary-color);
+  color: #fff;
+}
+
+.contact-btn {
+  background: var(--secondary-color);
+  color: #fff;
+}
+
+footer {
+}
+
+.icon {
+  background: var(--primary-color);
+  border-radius: 50%;
+  text-align: center;
+  color: var(--secondary-color);
 }
