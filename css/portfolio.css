@@ -11,6 +11,13 @@ body {
   font-family: Poppins;
 }
 
+h1 {
+  font-family: var(--accent-font);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 86px;
+}
+
 img {
   border-radius: 4px;
   margin: 20px 20px;
@@ -35,8 +42,6 @@ img {
 }
 
 .hero h1 {
-  font-family: var(--accent-font);
-  font-weight: bold;
   font-size: 96px;
 }
 
@@ -102,6 +107,10 @@ img {
   padding: 40px 80px;
 }
 
+.inquiry-container h2 {
+  font-size: 48px;
+}
+
 .container .contact-button {
   padding: 20px 40px;
   background-color: var(--secondary-color);
@@ -123,6 +132,20 @@ footer .email {
   height: 40px;
   border-radius: 50%;
   text-align: center;
+}
+
+.heading {
+  padding: 130px 10px 0;
+}
+
+.heading h2 {
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.contact-header {
+  padding: 140px 0 80px;
 }
 
 @media (max-width: 960px) {
