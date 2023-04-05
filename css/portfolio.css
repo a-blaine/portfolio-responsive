@@ -2,14 +2,52 @@
 
 :root {
   --accent-font: Playfair Display;
+  --primary-color: #f9f7fe;
+  --secondary-color: #6c64fb;
 }
 
 body {
   font-family: Poppins;
 }
 
-h1 {
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.page-active {
+  color: var(--secondary-color);
+}
+
+.hero {
+  background: var(--primary-color);
+  padding-top: 276px;
+  padding-bottom: 271px;
+}
+
+.hero h1 {
   font-family: var(--accent-font);
   font-weight: bold;
   font-size: 96px;
+}
+
+.hero p {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.hero h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.hero a {
+  padding: 20px 48px;
+  background-color: var(--secondary-color);
+  color: white;
+  font-weight: medium;
+  font-size: 18px;
+}
+
+.container h2 {
+  font-family: var(--accent-font);
 }
