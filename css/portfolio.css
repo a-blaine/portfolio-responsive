@@ -28,6 +28,11 @@ img {
   background-color: var(--primary-color);
 }
 
+.navbar img {
+  transform: scale(0.5);
+  margin: -20px auto;
+}
+
 .navbar-nav ul {
   color: var(--tertiary-color);
 }
