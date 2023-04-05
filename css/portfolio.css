@@ -66,7 +66,6 @@ body {
 
 .container a {
   color: var(--secondary-color);
-  border: 1px all var(--secondary-color);
 }
 
 .container a:hover {
@@ -74,17 +73,34 @@ body {
   color: #fff;
 }
 
-.contact-btn {
-  background: var(--secondary-color);
-  color: #fff;
+.inquiry-container {
+  background-color: var(--primary-color);
+  border-radius: 20px;
 }
 
-footer {
+.container .contact-button {
+  padding: 20px 48px;
+  background-color: var(--secondary-color);
+  color: white;
+  font-weight: medium;
+  font-size: 18px;
 }
 
-.icon {
+footer .email {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.socials {
+  margin: auto 240px;
+}
+
+.socials span,
+.socials a {
   background: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 32px;
+  height: 40px;
   border-radius: 50%;
   text-align: center;
-  color: var(--secondary-color);
 }
