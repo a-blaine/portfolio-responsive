@@ -11,6 +11,12 @@ body {
   font-family: Poppins;
 }
 
+img {
+  border-radius: 4px;
+  margin: 20px 20px;
+  object-fit: fill;
+}
+
 .navbar {
   background-color: var(--primary-color);
 }
@@ -25,8 +31,7 @@ body {
 
 .hero {
   background: var(--primary-color);
-  padding-top: 276px;
-  padding-bottom: 271px;
+  padding: 170px 20px;
 }
 
 .hero h1 {
@@ -57,15 +62,19 @@ body {
   color: var(--secondary-color);
 }
 
+.comment {
+  color: rgb(39, 33, 66);
+}
+
 .container h2 {
   font-family: var(--accent-font);
-  font-size: 70px;
+  font-size: 64px;
   font-weight: 700;
 }
 
 .container p {
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 30px;
   color: var(--tertiary-color);
 }
 
@@ -83,9 +92,14 @@ body {
   color: #fff;
 }
 
+.project-description {
+  padding: 90px 60px;
+}
+
 .inquiry-container {
   background-color: var(--primary-color);
   border-radius: 20px;
+  padding: 40px 80px;
 }
 
 .container .contact-button {
@@ -109,4 +123,34 @@ footer .email {
   height: 40px;
   border-radius: 50%;
   text-align: center;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 100px 20px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .inquiry-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact {
+    margin-top: 15px;
+    flex-direction: column;
+  }
 }
