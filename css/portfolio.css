@@ -43,7 +43,7 @@ img {
 
 .hero {
   background: var(--primary-color);
-  padding: 170px 20px;
+  padding: 160px 20px;
 }
 
 .hero h1 {
@@ -140,7 +140,7 @@ footer .email {
 }
 
 .heading {
-  padding: 130px 10px 0;
+  padding: 120px 10px 0;
 }
 
 .heading h2 {
@@ -149,8 +149,12 @@ footer .email {
   line-height: 27px;
 }
 
-.contact-header {
-  padding: 140px 0 80px;
+.about-contents {
+  margin-bottom: 150px;
+}
+
+.contact-page-header {
+  padding: 140px 10px 80px;
 }
 
 @media (max-width: 960px) {
@@ -180,5 +184,15 @@ footer .email {
   .contact {
     margin-top: 15px;
     flex-direction: column;
+  }
+
+  .heading {
+    margin: 40px 8px;
+    padding: 20px 0;
+  }
+
+  .about-contents img {
+    display: block;
+    margin: 40px auto;
   }
 }
