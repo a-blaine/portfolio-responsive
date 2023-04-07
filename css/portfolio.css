@@ -2,13 +2,32 @@
 
 :root {
   --accent-font: Playfair Display;
+  --main-font: Poppins;
   --primary-color: #f9f7fe;
   --secondary-color: #6c64fb;
   --tertiary-color: rgba(39, 33, 66, 0.7);
 }
 
 body {
-  font-family: Poppins;
+  font-family: var(--main-font);
+}
+
+nav img {
+  transform: scale(0.25);
+  margin: -90px -60px;
+}
+
+nav ul {
+  color: var(--tertiary-color);
+}
+
+nav li {
+  transition: all 200ms ease-in-out;
+}
+
+nav li:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
 }
 
 h1 {
@@ -32,15 +51,6 @@ h3 {
 
 .navbar-hero {
   background-color: var(--primary-color);
-}
-
-.navbar img {
-  transform: scale(0.25);
-  margin: -90px -60px;
-}
-
-.navbar-nav ul {
-  color: var(--tertiary-color);
 }
 
 .page-active {
@@ -116,14 +126,11 @@ h3 {
   background-color: var(--primary-color);
   border-radius: 20px;
   padding: 40px 80px;
+  margin-top: 150px;
 }
 
 .inquiry-container h2 {
   font-size: 48px;
-}
-
-.inquiry-spacing {
-  margin-top: 150px;
 }
 
 .container .contact-button {
@@ -154,7 +161,7 @@ footer .email {
 }
 
 .heading h2 {
-  font-family: Poppins;
+  font-family: var(--main-font);
   font-size: 18px;
   line-height: 27px;
 }
