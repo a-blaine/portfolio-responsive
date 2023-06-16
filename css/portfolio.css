@@ -194,8 +194,8 @@ footer p a {
 .work-gallery img {
   border-radius: 20px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-  height: 500px;
-  width: 600px;
+  height: 400px;
+  aspect-ratio: 3/2;
   object-fit: cover;
 }
 
